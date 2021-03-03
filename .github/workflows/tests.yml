@@ -18,7 +18,6 @@ jobs:
       matrix:
         python-version: [3.7, 3.8]
         tox-env:
-          - pep8
           - common-minimal
           - common
           - lms-1
