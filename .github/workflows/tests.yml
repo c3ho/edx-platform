@@ -18,12 +18,12 @@ jobs:
       matrix:
         python-version: [3.7, 3.8]
         tox-env:
-          #- common-minimal
-          #- common
-          #- lms-1
+          - common-minimal
+          - common
+          - lms-1
           - lms-2
-          #- mte
-          #- studio
+          - mte
+          - studio
 
     steps:
       - uses: actions/checkout@v2
